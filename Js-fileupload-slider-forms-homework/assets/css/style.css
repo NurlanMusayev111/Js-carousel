@@ -1,0 +1,33 @@
+.images{
+    display: flex;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 400px;
+    width: 600px;
+
+}
+
+.images img{
+    transition: all 0.2s;
+}
+
+.icons{
+    position: absolute;
+    left: 30.4%;
+    top: 25%;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.icons i {
+    font-size: 30px;
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+.active{
+    opacity: 1 !important;
+}
